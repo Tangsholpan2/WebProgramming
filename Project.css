@@ -1,0 +1,254 @@
+html,body{
+	margin:0;
+	padding:0;
+	width:100%;
+	overflow-x:hidden;
+}
+.dark{
+	width:100%;
+	height:100vh;
+	background:rgba(0,0,0, .4);
+	position:absolute;
+	top:0;
+	text-align:center;
+}
+.header{
+	display:flex;
+	position:absolute;
+	top:0;
+	width:100%;
+}
+.header-item{
+	margin:20px 20px;
+}
+.item{
+	color:white;
+	font-size:30px;
+	font-family: 'Architects Daughter', cursive;
+}
+.textMain{
+	position:relative;
+	top:25%;
+}
+.best{
+	color:white;
+	font-size:50px;
+	font-family: 'Architects Daughter', cursive;
+}
+.asian{
+	color:white;
+	font-size:120px;
+	font-family: 'Lobster', cursive;
+}
+.you{
+	color:white;
+	font-size:30px;
+	font-family: 'Architects Daughter', cursive;
+}
+.try{
+	border:0;
+	padding:20px 30px;
+	font-size:30px;
+	font-family: 'Architects Daughter', cursive;
+	background:rgba(0,0,0, .5);
+	color:white;
+	margin:20px;
+	border:3px solid white;
+	border-radius:40px;
+}
+#logo{
+	width:200px;
+	position:relative;
+	top:-50px;
+	margin-right:350px;
+	border-bottom:3px solid white;
+	opacity:0;
+}
+.featured{
+	color:white;
+	font-family: 'Lobster', cursive;
+	font-size:60px;
+	margin:40px;
+	border-top:3px solid white;
+}
+span{
+	color:white;
+	font-family: 'Architects Daughter', cursive;
+}
+.third{
+	margin-top:60px;
+
+}
+.three{
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	margin-bottom:90px;
+}
+.t{
+	width:300px;
+	height:200px;
+	margin: 30px 0px;
+	margin-bottom:20px;
+}
+#s{
+	background:#69491C;
+	width:420px;
+	height:360px;
+	position:relative;
+	top:60px;
+}
+#f{
+	position:relative;
+	left:-50px;
+}
+#hd{
+	color:white;
+	font-family: 'Architects Daughter', cursive;
+}
+.nom{
+	color:white;
+	font-family: 'Architects Daughter', cursive;
+	background:rgba(0,0,0, .3);
+	padding:20px;
+	margin:20px;
+}
+#or{
+	color:white;
+	font-family: 'Architects Daughter', cursive;
+}
+.o{
+	background:white;
+	color:#69491C;
+	padding:10px;
+	font-family: 'Architects Daughter', cursive;
+	font-size:25px;
+}
+.main{
+	text-align:center;
+	background:#242424;
+}
+.main2{
+	background:#242424;
+}
+.featured2{
+	color:white;
+	font-family: 'Lobster', cursive;
+	font-size:60px;
+	margin:40px;
+	border-top:3px solid white;
+}
+.offer{
+	display:flex;
+	justify-content:space-around;
+}
+.contac{
+	margin:30px;
+	padding:40px;
+}
+input{
+	font-size:35px;
+	padding:5px;
+	width:60%;
+}
+.iitem{
+	margin:10px;
+	font-family: 'Lobster', cursive;
+}
+#send{
+	border:0;
+	font-family: 'Lobster', cursive;
+	padding:10px 22px;
+	background:#69491C;
+	color:white;
+	
+}
+.location{
+	padding:20px;
+	display:flex;
+	margin-bottom:30px;
+}
+.firstP{
+	width:60%;
+}
+.secondP{
+	width:40%;
+}
+#map{
+height:400px;
+width:90%;
+border:3px solid white;
+margin:20px;
+}
+.bel{
+	color:white;
+	font-family: 'Lobster', cursive;
+}
+li{
+	color:white;
+	font-family: 'Lobster', cursive;
+	font-size:25px;
+	margin:10px;
+}
+.social{
+    display:flex;
+	justify-content:center;
+}
+i{
+	color:white;
+	font-size:40px;
+	margin:12px;
+}
+
+#submited{
+	position:absolute;
+	top:30%;
+	background:red;
+	width:100%;
+	padding:20px;
+	background:rgba(0,0,0, .9);
+	border:3px solid white;
+	display:none;
+
+}
+#okb{
+	font-family: 'Lobster', cursive;
+	font-size:25px;
+	border:0;
+}
+#submitting{
+	color:white;
+	font-family: 'Lobster', cursive;
+}
+
+
+@media (max-width:1000px){
+	.asian{
+	font-size:100px;
+}
+    #logo{
+		display:none;
+}
+     .header{
+	display:flex;
+	justify-content:center;
+}
+}
+
+@media (max-width:500px){
+	.item{
+	font-size:20px;
+	margin:0px;
+}
+.header-item{
+	margin:20px 12px;
+	text-align:center;
+}
+   .header{
+	display:flex;
+	justify-content:center;
+}
+.offer{
+	display:block;
+}
+}
